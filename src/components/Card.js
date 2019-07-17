@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
-function Card() {
-	const [ cards, setCards ] = useState([]);
-	return <div />;
+function Card({ imgUrl }) {
+	return (
+		<div className="card">
+			<img src={imgUrl} />
+		</div>
+	);
 }
 
 export default Card;
