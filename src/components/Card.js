@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Card({ imgUrl }) {
+function Card({ cardData }) {
 	return (
 		<div className="card">
-			<img src={imgUrl} />
+			<img src={cardData} />
 		</div>
 	);
 }
