@@ -5,7 +5,7 @@ import CardGrid from './components/CardGrid.js';
 function App() {
 	return (
 		<div className="App">
-			<p>Read through the instructions in the README.md file to build your NASA app! Have fun 🚀!</p>
+			<p> NASA app!🚀</p>
 			<CardGrid />
 		</div>
 	);
