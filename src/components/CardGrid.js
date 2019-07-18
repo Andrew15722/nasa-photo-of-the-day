@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Card from './Card';
+import NasaCard from './Card';
 // import Iframe from 'react-iframe';
 
 function CardGrid() {
@@ -24,11 +24,11 @@ function CardGrid() {
 
 	return (
 		<div className="card-grid">
-			<p>{cardDate}</p>
-			<Card cardData={cardImg} key={cardImg} />
-			<p>{cardP}</p>
+			<NasaCard key={cardImg} nasaCardImg={cardImg} nasaCardP={cardP} nasaCardDate={cardDate} />
 		</div>
 	);
 }
 
 export default CardGrid;
+
+// Need to come back and add functionallity for loading and video
